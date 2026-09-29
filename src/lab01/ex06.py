@@ -7,6 +7,5 @@ for i in range(2,n+2):
     c=int(c)
     if d=="True":
         och+=1
-    print(f"in_{i}:",a,b,c,d,sep=" ")
 
 print("out:",och,n-och)
