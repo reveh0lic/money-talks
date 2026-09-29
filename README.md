@@ -1,5 +1,5 @@
 # money-talks
-##Задача 1
+## Задача 1
 ```
 name=input("Имя: ")
 age=int(input("Возраст:"))
