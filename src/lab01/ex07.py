@@ -1,9 +1,8 @@
 stroka=input('In:')
 s=''
-num=0
 step=0
 finish=0
-start=0
+
 p=0
 for i in range (len(stroka)):
     if stroka[i].isupper():
