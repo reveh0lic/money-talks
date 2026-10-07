@@ -55,26 +55,13 @@ print(a3)
 ## Задача 3
 ```
 def flatten(mat: list[list | tuple]) -> list:
-    a = []
-
+    result = []
     for row in mat:
         if not isinstance(row, (list, tuple)):
             raise TypeError
-
-        a.extend(row)
-
-    return a
-
-
-a = input("Список: ")
-
-a = a.replace("[", "").replace("]", "")
-a = a.replace("(", "").replace(")", "")
-
-a = list(map(int, a.split(",")))
-
-print(a)
-
+        for item in row:
+            result.append(item)
+    return result
 ```
 ## Задача 4
 ```
