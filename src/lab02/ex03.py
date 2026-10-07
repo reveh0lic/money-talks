@@ -1,8 +1,13 @@
-a = input("Список: ")
 
-a = a.replace("[", "").replace("]", "")
-a = a.replace("(", "").replace(")", "")
+mat = eval(input("Список: "))
 
-a = list(map(int, a.split(",")))
+result = []
 
-print(a)
+for row in mat:
+    if not isinstance(row, (list, tuple)):
+        raise TypeError
+
+    for item in row:
+        result.append(item)
+
+print(result)
