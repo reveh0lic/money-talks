@@ -1,6 +1,6 @@
-a=input('Кортеж: ')
+a=input('Список: ')
 
-if a=='[ ]':
+if a=='[]':
     raise ValueError('Пустой список') 
 
 a=a.strip('[]').split(', ')
