@@ -126,7 +126,7 @@ def col_sums(mat):
 ```
 ## Задача 7
 ```
-def format_record(rec: tuple[str, str, float]) -> str:
+def format_record(rec):
     if not isinstance(rec, tuple):
         raise TypeError("Запись должна быть кортежем")
     if len(rec) != 3:
