@@ -1,18 +1,17 @@
 def transpose(mat):
-    if not mat:
+    if len(mat) == 0:
         return []
 
-    n=len(mat[0])
-
+    first_row_len = len(mat[0])
     for row in mat:
-        if len(row)!=n:
+        if len(row) != first_row_len:
             raise ValueError
 
-    a2=[]
-    for j in range(n):
-        a3=[]
+    new_mat = []
+    for j in range(first_row_len):
+        new_row = []
         for i in range(len(mat)):
-            a3.append(mat[i][j])
-        a2.append(a3)
+            new_row.append(mat[i][j])
+        new_mat.append(new_row)
 
-    return a2
+    return new_mat

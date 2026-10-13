@@ -16,3 +16,5 @@ def col_sums(mat):
         a2.append(a3)
 
     return a2
+
+print(f"col_sums([[1, 2, 3], [4, 5, 6]]) -> {col_sums([[1, 2, 3], [4, 5, 6]])}")
