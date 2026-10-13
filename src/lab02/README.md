@@ -26,6 +26,7 @@ while a2:
 answer = a3[0],a3[-1]
 print(answer)
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab02_images/ex01.png)
 ## Задача 2
 ```
 a=input('Список: ')
