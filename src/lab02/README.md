@@ -54,6 +54,8 @@ while a2:
 
 print(a3)
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab02_images/ex02.png)
+
 ## Задача 3
 ```
 def flatten(mat: list[list | tuple]) -> list:
@@ -65,6 +67,7 @@ def flatten(mat: list[list | tuple]) -> list:
             result.append(item)
     return result
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab02_images/ex03.png)
 ## Задача 4
 ```
 def transpose(mat):
@@ -86,6 +89,7 @@ def transpose(mat):
 
     return a2
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab02_images/ex04.png)
 ## Задача 5
 ```
 def row_sums(mat):
@@ -104,6 +108,7 @@ def row_sums(mat):
 
     return a2
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab02_images/ex05.png)
 ## Задача 6
 ```
 def col_sums(mat):
@@ -125,6 +130,7 @@ def col_sums(mat):
 
     return a2
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab02_images/ex06.png)
 ## Задача 7
 ```
 def format_record(rec):
@@ -155,6 +161,7 @@ def format_record(rec):
 
     return f"{surname} {initials}, гр. {group}, GPA {gpa:.2f}"
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab02_images/ex07.png)
 
 
 
