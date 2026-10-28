@@ -1,5 +1,5 @@
 ### **ЛР 3**
-## Задача A1
+# Задача A1
 ```
 def normalize(text, *, casefold: bool = True, yo2e: bool = True):
     if yo2e:
@@ -12,7 +12,7 @@ def normalize(text, *, casefold: bool = True, yo2e: bool = True):
     return ' '.join(text.split())
 ```
 ![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab03_images/lab03A1.png)
-## Задача A2
+# Задача A2
 ```
 def tokenize(text):
     result = []
@@ -38,7 +38,7 @@ def tokenize(text):
     return result
 ```
 ![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab03_images/lab03A2.png)
-## Задачи A3 + A4
+# Задачи A3 + A4
 ```
 def count_freq(tokens):
     freq={}
