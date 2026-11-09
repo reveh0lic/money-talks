@@ -1,3 +1,5 @@
+'''ЛР3'''
+
 import sys
 def normalize(text, *, casefold: bool = True, yo2e: bool = True):
     if yo2e:
