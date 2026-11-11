@@ -104,3 +104,5 @@ py -m src.lab6.cli_convert csv2json --in data/lab05/samples/people.csv --out dat
 ```python
 py -m src.lab6.cli_convert csv2xlsx --in data/lab05/samples/people.csv --out data/lab06/csv2xlsx.xlsx
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab06_images/helpers.png)
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab06_images/ЛР6_imageerrors.png)
