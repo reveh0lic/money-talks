@@ -29,6 +29,7 @@ def write_csv(
         if header is not None:
             writer.writerow(header)
         writer.writerows(rows)
+
 ```
 ## Задание 2
 ### Скрипт читает файл, лежащий в data, нормализует текст из этого файла, токенизирует и считает частоты слов, после чего сохраняет report.csv с колонками word, count, а в консоль печатает краткое резюме. Если файл не найден или указана неверная кодировка, то через цикл except 'ловим' ошибку и принтим ее, после чего выходим из цикла try-except.
@@ -126,6 +127,9 @@ def main() -> None:
 if __name__ == "__main__":
     main()
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab04_images/ЛР4_A.png)
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab04_images/ЛР_4_Б.png)
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab04_images/ЛР_4_Б_1.png)
 ## Краевые случаи
 ### data/input.txt не существует - цикл try/except поймает ошибку и выведет ее в консоли
 
