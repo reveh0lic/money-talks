@@ -111,8 +111,5 @@ if __name__ == "__main__":
     csv_to_json(f"{SAMPLES}/people.csv", f"{OUT}/people_from_csv.json")
     print("people.csv -> people_from_csv.json")
 
-    json_to_csv(f"{SAMPLES}/students.json", f"{OUT}/students_from_json.csv")
-    print("students.json -> students_from_json.csv (с пропусками полей)")
-
     csv_to_json(f"{SAMPLES}/cities.csv", f"{OUT}/cities_from_csv.json")
     print("cities.csv -> cities_from_csv.json")
