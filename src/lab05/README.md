@@ -1,5 +1,6 @@
 # Лабораторная работа №5
 ## Задание 1
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab05_images/running.png)
 ### json_to_csv
 ```python
 from pathlib import Path
@@ -35,6 +36,7 @@ def json_to_csv(json_path: str, csv_path: str) -> None:
          w.writeheader()
          w.writerows(json_list)
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab05_images/JSON_TO_CSV.png)
 ### csv_to_json
 ```python
 def csv_to_json(csv_path: str, json_path: str) -> None:
@@ -53,6 +55,7 @@ def csv_to_json(csv_path: str, json_path: str) -> None:
     with open(json_file, "w", encoding = "utf-8") as file:
         json.dump(csv_list, file, ensure_ascii = False, indent = 2)
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab05_images/CSV_TO_JSON.png)
 ## Задание 2
 ### csv_to_xlsx
 ```python
@@ -83,3 +86,4 @@ def csv_to_xlsx(csv_path: str, xlsx_path: str) -> None:
         ws.column_dimensions[lt].width = max(mx, 8)
     wb.save(xlsx_file)
 ```
+![Скриншот](https://github.com/reveh0lic/money-talks/blob/main/images/lab05_images/excel.png)
