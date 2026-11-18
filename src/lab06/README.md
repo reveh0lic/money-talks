@@ -3,7 +3,7 @@
 ### cat и stats
 ```python
 import argparse
-from src.lib.io_helpers import read_text
+from src.lab04.io_txt_csv import read_text
 from src.lib.text import normalize, tokenize,count_freq, top_n
 
 def main():
